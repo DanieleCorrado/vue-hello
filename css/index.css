@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: violet;
+/* Regole app */
+
+.center {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Regole h1 */
+
+#title{
+  margin-bottom: 30px;
+  color: red;
 }
