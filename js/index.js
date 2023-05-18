@@ -1,1 +1,9 @@
-console.log("prova");
+const { createApp } = Vue;
+
+  createApp({
+    data() {
+      return {
+        message: 'Hello World!',
+      }
+    }
+  }).mount('#title')
